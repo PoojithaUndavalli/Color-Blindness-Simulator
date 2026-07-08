@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef2f7;
+    padding:30px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.controls{
+    margin:20px 0;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+}
+
+.images{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.panel{
+    flex:1;
+    min-width:450px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.panel h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+canvas{
+    width:100%;
+    border:1px solid #ddd;
+}
+
+input,select{
+    padding:10px;
+    font-size:16px;
+}
