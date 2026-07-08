@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Blindness Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Color Vision Deficiency Simulator</h1>
+
+    <input type="file" id="upload" accept="image/*">
+
+    <div class="controls">
+
+        <label>Simulation:</label>
+
+        <select id="mode">
+            <option value="normal">Original</option>
+            <option value="protanopia">Protanopia</option>
+            <option value="deuteranopia">Deuteranopia</option>
+            <option value="tritanopia">Tritanopia</option>
+            <option value="achromatopsia">Achromatopsia</option>
+        </select>
+
+    </div>
+
+    <div class="images">
+
+        <div class="panel">
+            <h2>Original</h2>
+            <canvas id="originalCanvas"></canvas>
+        </div>
+
+        <div class="panel">
+            <h2>Simulation</h2>
+            <canvas id="simCanvas"></canvas>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
